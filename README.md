@@ -15,3 +15,4 @@ CUDAGLraytrace.cu is the file use CUDA to compute the ray trace data and use Ope
  make
  ./cudaraytracer
 ```
+3DBVH.cpp, 3DBVH.h, raytracer.cpp are the files to use BVH to do ray tracing. To compile the code, run c++ -std=c++14 -o raytracer raytracer.cpp 3DBVH.cpp.
